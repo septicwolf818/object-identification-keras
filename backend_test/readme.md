@@ -1,6 +1,8 @@
 # This is the pretrained model test
 
-Test image was generated using [Craiyon](https://www.craiyon.com/) - it's containing Toy Poodle.
+Test image was generated using [Craiyon](https://www.craiyon.com/) - it's containing Toy Poodle photo.
+
+Make sure you installed all requirements before running the test.
 
 Prediction should also return `toy_poodle` in top 3 results.
 
