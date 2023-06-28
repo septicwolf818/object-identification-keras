@@ -1,8 +1,10 @@
-# Object Identification using AI model as a Django app
+# Object Identification using AI model (As a Django app)
+
+
 
 ## About
 
-This project uses Keras **ResNet50V2** model to predict object classes from the uploaded image.
+This project uses Keras **ResNet50V2** model to predict object classes on the uploaded image.
 
 ## How to run
 
@@ -12,7 +14,7 @@ This project uses Keras **ResNet50V2** model to predict object classes from the 
 
 ### 2. Enter into the repository directory
 
-`cd <name_of_the_directory_where_repo_was_cloned>`
+`cd <name_of_the_directory_where_the_repository_was_cloned>`
 
 ### 3. Install all requirements needed from `requirements.txt` file.
 
