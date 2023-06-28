@@ -1,4 +1,5 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
+from django.urls import reverse
 import os
 import random, string
 from objectidentification.forms import ImageUploadForm
@@ -43,6 +44,9 @@ def result(request):
         for x, label, percentage in result:
             res.append((label,round(int(percentage*10000)/10000, 4)))
         return render(request, "result.html", {"res":res})
+    else:
+        return redirect(reverse('index_redirect'))
     
 
-    return render(request, 'result.html')
+def redirect_to_index_page(request):
+    return render(request, "index.html")

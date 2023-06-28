@@ -21,7 +21,7 @@ from . import views
 urlpatterns = [
     path('index/', views.index, name="index"),
     path('', lambda req: redirect('index'), name="index_redirect"),
-    path('uploadimage/', include("uploadimage.urls"), name='uploadimage'),
+    path('uploadimage/', include("uploadimage.urls"), name='upload_image'),
     path('result/', include("result.urls"), name='result'),
     path('admin/', admin.site.urls, name='admin')
 ]
